@@ -5,19 +5,21 @@
 }
 body{
     background-color: #091921;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 .clockContainer{
+    margin: auto;
     width: 40vw;
     height: 40vw;
     background-image: url('clock.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: auto;
     position: relative;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05) ,
+                10px -15px 15px rgba(255, 255, 255, 0.05) ,
+                0 15px 15px rgba(0, 0, 0, 0.3) ,
+                10px 0 15px 15px rgba(0, 0, 0, 0.3);
 }
 #hour , #minutes , #seconds{
     position: absolute;
