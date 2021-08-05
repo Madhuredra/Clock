@@ -11,7 +11,7 @@ body{
     margin: auto;
     width: 40vw;
     height: 40vw;
-    background-image: url('clock.png');
+    background-image: url('https://lh3.googleusercontent.com/proxy/zhcRRcFkL79wPYw9C_F1VtJCwqtY4-fYHQV7ZCMGSc6lIREbimNeiInBx3TCzlBQxwxStby3dW90KA0S0zi9gqUhRo_Wpis');
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -46,3 +46,4 @@ body{
     top: 10%;
     background-color: red;
 }
+
